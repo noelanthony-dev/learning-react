@@ -4,5 +4,62 @@
 
 body {
   margin: 0;
+  background-color: #282D35;
 }
 
+/*NAVBAR*/
+
+.navbar {
+  align-items: center; /* so image won't get stretched */
+  display: flex;
+  justify-content: flex-start;
+  background-color: #21222A;
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.nav--icon {
+  margin-left: 25px;
+  margin-right: 7px;
+}
+
+.nav--logo_text {
+  color: #00D8FF;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.nav--title {
+  color: #DEEBF8;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+/* MAIN */
+.mainContainer {
+  color: white;
+  padding: 57px 27px;
+  background-image: url("./images/reactjs-icon-main.png");
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main--title {
+  letter-spacing:-0.05em;
+}
+
+.main--list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--list > li {
+  font-weight: 400;
+  font-size: 16px;
+  padding-block: 10px;
+}
+
+.main--list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
